@@ -53,7 +53,7 @@ class DataTransformationHandler:
             )
             json_str = completion.choices[0].message.content
             json_dict = json.loads(json_str)
-            json_dict['other'] = html_content
+            json_dict['other'] = f"{html_content}"
             logger.info("HTML content successfully transformed to JSON.")
             return json_dict
         except Exception as e:
