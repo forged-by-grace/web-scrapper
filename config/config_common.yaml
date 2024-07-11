@@ -1,0 +1,12 @@
+app:
+  title: "Web-Scrapper"
+  base_url: "https://greenwich.audubon.org/events/"
+
+openai:
+    api_key: ${oc.env:OPENAI_API_KEY}
+    model: "gpt-4o"
+
+database:
+  url: 'sqlite:///./app/db/development.db'
+
+
