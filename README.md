@@ -1,6 +1,5 @@
 
-```
-# Event Scraper and Processor
+# Web Scrapper and Processor
 
 ## Overview
 This application is designed to scrape event data from a specified web source, transform the data into a structured JSON format, and persist it into a SQLite database. It leverages several components including data ingestion, data transformation, and data persistence to achieve this goal.
@@ -26,8 +25,7 @@ This application is designed to scrape event data from a specified web source, t
 ### Clone the Repository
 ```sh
 git clone https://github.com/forged-by-grace/web-scrapper.git
-cd event-scraper
-```
+cd web-scrapper
 
 ### Create a Virtual Environment
 ```sh
